@@ -1,0 +1,24 @@
+{
+  "name": "svg-pathize",
+  "version": "1.0.0",
+  "description": "Convert SVG documents to SVG path data",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SkylerLipthay/svg-pathize.git"
+  },
+  "keywords": [
+    "svg",
+    "path"
+  ],
+  "author": "Skyler Lipthay",
+  "license": "MIT",
+  "homepage": "https://github.com/SkylerLipthay/svg-pathize",
+  "dependencies": {
+    "jsdom": "^16.5.0",
+    "svg-path-converter": "github:SkylerLipthay/svg-path-converter"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
